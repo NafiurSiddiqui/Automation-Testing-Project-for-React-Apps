@@ -79,7 +79,7 @@ describe('greeting component', () => {
 		//..Nothing
 
 		//ASSERT
-		const greetingText = screen.getByText("It's good to see you!");
+		const greetingText = screen.getByText("It's good to see you!"); //there is also other ways we can do this line
 
 		expect(greetingText).not.toBeInTheDocument();
 	});
